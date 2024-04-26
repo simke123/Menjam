@@ -1,0 +1,29 @@
+dotnet new list
+dotnet --info
+dotnet dev-certs https --trust
+dotnet ef migrations add InitialCreate
+ef migrations remove
+dotnet ef database update
+dotnet ef database drop
+
+
+
+Extensions:
+Material icon theme
+.net install tool
+c#
+c# dev kit
+intellicode for c# dev kit
+nuget gallery
+sql lite
+
+
+1. dotnet new sln
+2. dotnet new webapi -n API
+3. dotnet sln add API/
+4. Install entity frameworkcore.sqlserver, design, tools(mozda)
+5. install automapper
+5.Napravi Entities(bazu)
+6.Onda migracije
+7.interface
+8.repository
